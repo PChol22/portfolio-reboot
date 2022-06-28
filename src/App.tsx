@@ -1,3 +1,5 @@
-import { Typography } from "@mui/material"
+import { Typography } from '@mui/material';
 
-export const App = (): JSX.Element => <Typography variant="h1">Hello World !</Typography>
+export const App = (): JSX.Element => (
+  <Typography variant="h1">Hello World !</Typography>
+);
