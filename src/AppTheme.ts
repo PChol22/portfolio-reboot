@@ -1,4 +1,4 @@
-export const Theme = {
+export const AppTheme = {
   palette: {
     principal: {
       light: '#76AAFF',
