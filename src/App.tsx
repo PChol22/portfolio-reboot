@@ -1,5 +1,9 @@
 import { Header } from './header';
+import { LandingPage } from './LandingPage';
 
 export const App = (): JSX.Element => (
-  <Header></Header>
+  <>
+    <Header></Header>
+    <LandingPage></LandingPage>
+  </>
 );
