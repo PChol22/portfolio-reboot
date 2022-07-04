@@ -29,3 +29,9 @@ export const AppTheme = {
     },
   },
 };
+
+export type ColorVariant =
+  | 'principal'
+  | 'secondary'
+  | 'oppositeA'
+  | 'oppositeB';

@@ -1,8 +1,5 @@
-import { Typography } from '@mui/material';
-import { AppTheme } from './AppTheme';
+import { Header } from './header';
 
 export const App = (): JSX.Element => (
-  <Typography variant="h1" color={AppTheme.palette.principal.main}>
-    Hello World !
-  </Typography>
+  <Header></Header>
 );
