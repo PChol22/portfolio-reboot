@@ -24,7 +24,7 @@ export const AppTheme = {
       white: '#F5F9FF',
       light: '#979EB8',
       main: '#5C6680',
-      dark: '#3E4561',
+      dark: '#2E354A',
       black: '#010D2B',
     },
   },
@@ -35,3 +35,5 @@ export type ColorVariant =
   | 'secondary'
   | 'oppositeA'
   | 'oppositeB';
+
+export const PAGE_PADDING_X = '5vw';

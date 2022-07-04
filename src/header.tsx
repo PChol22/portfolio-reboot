@@ -1,5 +1,5 @@
 import { Box, Stack } from "@mui/material";
-import { AppTheme } from "./AppTheme";
+import { AppTheme, PAGE_PADDING_X } from "./AppTheme";
 import { Button } from "./Button";
 import { StyledLink } from "./link.style";
 import { Logo } from "./Logo";
@@ -9,11 +9,10 @@ export const Header = (): JSX.Element => {
   return <Box
     position="fixed"
     top="0"
-    width="100vw"
+    width="100%"
     borderBottom="1px solid"
     borderColor={AppTheme.palette.principal.main}
-    paddingX="5vw"
-    boxSizing="border-box"
+    paddingX={PAGE_PADDING_X}
   >
     <Stack
       justifyContent="space-between"
