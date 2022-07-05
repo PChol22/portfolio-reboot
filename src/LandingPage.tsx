@@ -1,6 +1,7 @@
 import { Box, Stack, Typography } from "@mui/material";
 import { AppTheme, PAGE_PADDING_X } from "./AppTheme";
 import { Button } from "./Button";
+import { Footer } from "./Footer";
 import { MainStructure } from "./MainStructure";
 import Portrait from './Portrait.png';
 
@@ -26,4 +27,5 @@ export const LandingPage = (): JSX.Element =>
       <img src={Portrait} width="100%" />
     </Box>
     <MainStructure />
+    <Footer />
   </Stack >;
