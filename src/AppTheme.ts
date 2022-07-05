@@ -22,8 +22,8 @@ export const AppTheme = {
     },
     grey: {
       white: '#F5F9FF',
-      light: '#979EB8',
-      main: '#5C6680',
+      light: '#CDD8ED',
+      main: '#8B96AF',
       dark: '#2E354A',
       black: '#010D2B',
     },
