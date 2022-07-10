@@ -1,4 +1,4 @@
-import { Box, Stack, styled } from "@mui/material";
+import { Box, keyframes, Stack, styled } from "@mui/material";
 import { AppTheme } from "./AppTheme";
 import theodo from './theodo.png';
 import axaClimate from './axaClimate.png';
@@ -6,10 +6,22 @@ import sbcs from './sbcs.png';
 import padoa from './padoa.png';
 import bnpParibas from './bnpParibas.png';
 
+const scroll = keyframes`
+  from {
+    transform: translateX(-100vw);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+`;
+
 const FooterContainer = styled(Box)(() => ({
   background: AppTheme.palette.grey.light,
   borderTop: "1px solid",
   borderColor: AppTheme.palette.grey.main,
+  animation: `${scroll} 60s infinite linear`,
+  width: '200vw',
 }));
 
 export const Footer = (): JSX.Element => {
@@ -37,8 +49,11 @@ export const Footer = (): JSX.Element => {
 
   return (<FooterContainer position="absolute" width="100%" bottom={0} left={0} height="10vh">
     <Stack flexDirection="row" gap={2} justifyContent="space-around" alignItems="center" height="100%" width="100%">
-      {carrierItems.map(({ label, src }) => (<Box key={label} width="10%">
-        <img src={src} width="100%" />
+      {carrierItems.map(({ label, src }) => (<Box key={`${label}-1`} width="20%">
+        <img src={src} width="50%" />
+      </Box>))}
+      {carrierItems.map(({ label, src }) => (<Box key={`${label}-2`} width="20%">
+        <img src={src} width="50%" />
       </Box>))}
     </Stack>
   </FooterContainer>);
