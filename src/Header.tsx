@@ -13,6 +13,7 @@ export const Header = (): JSX.Element => {
     borderBottom="1px solid"
     borderColor={AppTheme.palette.principal.main}
     paddingX={PAGE_PADDING_X}
+    paddingY={0.5}
   >
     <Stack
       justifyContent="space-between"
