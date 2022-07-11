@@ -11,6 +11,7 @@ export const Button = styled(Box)<{
   border: "1px solid",
   borderColor: styleVariant === 'outlined' ? AppTheme.palette[colorVariant].main : AppTheme.palette[colorVariant].main,
   padding: "6px 12px",
+  transition: "background 400ms, color 400ms, border-radius 400ms",
   '&:hover': {
     background: styleVariant === 'filled' ? AppTheme.palette.grey.white : AppTheme.palette[colorVariant].main,
     color: styleVariant === 'filled' ? AppTheme.palette[colorVariant].main : AppTheme.palette.grey.white,
