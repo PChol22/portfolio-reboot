@@ -14,7 +14,8 @@ export const StyledLink = styled(Box)<{ colorVariant: 'principal' | 'secondary' 
     left: 0,
     content: "''",
     transformOrigin: 'center',
-    transform: 'scaleX(0)'
+    transform: 'scaleX(0)',
+    transition: "transform 400ms"
   },
   '&:hover::after': {
     transform: 'scaleX(0.8)',
