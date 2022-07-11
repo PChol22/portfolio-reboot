@@ -47,7 +47,7 @@ export const Footer = (): JSX.Element => {
       src: sbcs,
     }];
 
-  return (<FooterContainer position="absolute" width="100%" bottom={0} left={0} height="10vh">
+  return (<FooterContainer position="absolute" width="100%" bottom={0} left={0} height="9vh">
     <Stack flexDirection="row" gap={2} justifyContent="space-around" alignItems="center" height="100%" width="100%">
       {carrierItems.map(({ label, src }) => (<Box key={`${label}-1`} width="20%">
         <img src={src} width="50%" />
