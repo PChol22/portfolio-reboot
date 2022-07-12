@@ -1,5 +1,5 @@
 import { Box, styled } from "@mui/material";
-import { AppTheme, ColorVariant } from "./AppTheme";
+import { AppTheme, ColorVariant } from "../AppTheme";
 
 export const Button = styled(Box)<{
   colorVariant: ColorVariant,

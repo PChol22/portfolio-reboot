@@ -1,5 +1,5 @@
 import { Box, styled } from "@mui/material";
-import { AppTheme } from "./AppTheme";
+import { AppTheme } from "../AppTheme";
 
 export const StyledLink = styled(Box)<{ colorVariant: 'principal' | 'secondary' | 'oppositeA' | 'oppositeB' }>(({ colorVariant }) => ({
   cursor: 'pointer',
