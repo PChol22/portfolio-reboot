@@ -1,6 +1,6 @@
-import { Header } from './Header';
-import { LandingPage } from './LandingPage';
-import { MiddleLayer } from './MiddleLayer';
+import { Header } from './pages/LandingPage/Header';
+import { LandingPage } from './pages/LandingPage/LandingPage';
+import { MiddleLayer } from './pages/MiddleLayer/MiddleLayer';
 
 export const App = (): JSX.Element => (
   <>
