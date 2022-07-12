@@ -1,9 +1,9 @@
 import { Box, Stack, styled } from "@mui/material";
-import linkedin from './linkedin.png';
-import twitter from './twitter.png';
-import github from './github.png';
-import malt from './malt.png';
-import email from './email.png';
+import linkedin from '@/assets/socials/linkedin.png';
+import twitter from '@/assets/socials/twitter.png';
+import github from '@/assets/socials/github.png';
+import malt from '@/assets/socials/malt.png';
+import email from '@/assets/socials/email.png';
 
 const SocialLogo = styled(Box)(() => ({
   '&:hover': {
