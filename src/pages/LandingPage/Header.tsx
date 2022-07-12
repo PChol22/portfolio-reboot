@@ -1,8 +1,8 @@
 import { Box, Stack, styled } from "@mui/material";
-import { AppTheme, PAGE_PADDING_X } from "./AppTheme";
-import { Button } from "./Button";
-import { StyledLink } from "./link.style";
-import { Logo } from "./Logo";
+import { AppTheme, PAGE_PADDING_X } from "../../AppTheme";
+import { Button } from "../../Button";
+import { StyledLink } from "../../link.style";
+import { Logo } from "../../Logo";
 
 const HeaderContainer = styled(Box)(() => ({
   background: AppTheme.palette.grey.white,

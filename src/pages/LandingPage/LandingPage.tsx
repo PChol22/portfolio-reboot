@@ -1,6 +1,6 @@
 import { Box, Stack, Typography } from "@mui/material";
-import { AppTheme, PAGE_PADDING_X } from "./AppTheme";
-import { Button } from "./Button";
+import { AppTheme, PAGE_PADDING_X } from "../../AppTheme";
+import { Button } from "../../Button";
 import { Footer } from "./Footer";
 import { MainStructure } from "./MainStructure";
 import Portrait from '@/assets/Portrait.png';

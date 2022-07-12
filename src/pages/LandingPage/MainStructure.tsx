@@ -1,5 +1,5 @@
 import { Box, styled } from '@mui/material';
-import { AppTheme } from './AppTheme';
+import { AppTheme } from '../../AppTheme';
 import { Socials } from './Socials';
 
 const StyledBlock = styled(Box)<{ backgroundColor: string, offset: number }>(({ backgroundColor, offset }) => ({
