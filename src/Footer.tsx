@@ -1,10 +1,10 @@
 import { Box, keyframes, Stack, styled } from "@mui/material";
 import { AppTheme } from "./AppTheme";
-import theodo from './theodo.png';
-import axaClimate from './axaClimate.png';
-import sbcs from './sbcs.png';
-import padoa from './padoa.png';
-import bnpParibas from './bnpParibas.png';
+import theodo from '@/assets/experiences/theodo.png';
+import axaClimate from '@/assets/experiences/axaClimate.png';
+import sbcs from '@/assets/experiences/sbcs.png';
+import padoa from '@/assets/experiences/padoa.png';
+import bnpParibas from '@/assets/experiences/bnpParibas.png';
 
 const scroll = keyframes`
   from {
