@@ -1,5 +1,5 @@
 import { Box, Stack, styled, Typography } from "@mui/material";
-import { AppTheme, PAGE_PADDING_X } from "../../AppTheme";
+import { AppTheme, PAGE_PADDING_X } from "@/AppTheme";
 
 const MiddleLayerContainer = styled(Box)(() => ({
   background: AppTheme.palette.grey.light,

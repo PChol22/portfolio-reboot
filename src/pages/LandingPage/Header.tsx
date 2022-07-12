@@ -1,5 +1,5 @@
 import { Box, Stack, styled } from "@mui/material";
-import { AppTheme, PAGE_PADDING_X } from "../../AppTheme";
+import { AppTheme, PAGE_PADDING_X } from "@/AppTheme";
 import { Button } from "@/components/Button";
 import { StyledLink } from "@/components/StyledLink";
 import { Logo } from "@/components/Logo";

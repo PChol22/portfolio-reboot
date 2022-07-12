@@ -1,5 +1,5 @@
 import { Stack, Typography } from "@mui/material";
-import { AppTheme } from "../AppTheme";
+import { AppTheme } from "@/AppTheme";
 
 export const Logo = (): JSX.Element =>
   <Stack flexDirection="row" alignItems="center" sx={{ cursor: 'pointer' }}>

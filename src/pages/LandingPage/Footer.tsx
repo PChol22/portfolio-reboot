@@ -1,5 +1,5 @@
 import { Box, keyframes, Stack, styled } from "@mui/material";
-import { AppTheme } from "../../AppTheme";
+import { AppTheme } from "@/AppTheme";
 import theodo from '@/assets/experiences/theodo.png';
 import axaClimate from '@/assets/experiences/axaClimate.png';
 import sbcs from '@/assets/experiences/sbcs.png';

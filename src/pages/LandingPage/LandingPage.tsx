@@ -1,5 +1,5 @@
 import { Box, Stack, Typography } from "@mui/material";
-import { AppTheme, PAGE_PADDING_X } from "../../AppTheme";
+import { AppTheme, PAGE_PADDING_X } from "@/AppTheme";
 import { Button } from "@/components/Button";
 import { Footer } from "./Footer";
 import { MainStructure } from "./MainStructure";
