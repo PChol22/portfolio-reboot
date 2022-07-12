@@ -36,4 +36,4 @@ export type ColorVariant =
   | 'oppositeA'
   | 'oppositeB';
 
-export const PAGE_PADDING_X = '5vw';
+export const PAGE_PADDING_X = '8vw';

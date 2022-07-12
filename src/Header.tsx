@@ -1,12 +1,16 @@
-import { Box, Stack } from "@mui/material";
+import { Box, Stack, styled } from "@mui/material";
 import { AppTheme, PAGE_PADDING_X } from "./AppTheme";
 import { Button } from "./Button";
 import { StyledLink } from "./link.style";
 import { Logo } from "./Logo";
 
+const HeaderContainer = styled(Box)(() => ({
+  background: AppTheme.palette.grey.white,
+}))
+
 export const Header = (): JSX.Element => {
   const links = ['Experience', 'Skills', 'Projects', 'Formation'];
-  return <Box
+  return <HeaderContainer
     position="fixed"
     top="0"
     width="100%"
@@ -30,5 +34,5 @@ export const Header = (): JSX.Element => {
         <Button styleVariant="outlined" colorVariant="principal">Reach me!</Button>
       </Stack>
     </Stack >
-  </Box>
+  </HeaderContainer>
 }
