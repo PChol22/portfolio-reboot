@@ -3,7 +3,7 @@ import { AppTheme, PAGE_PADDING_X } from "./AppTheme";
 import { Button } from "./Button";
 import { Footer } from "./Footer";
 import { MainStructure } from "./MainStructure";
-import Portrait from './Portrait.png';
+import Portrait from '@/assets/Portrait.png';
 
 export const LandingPage = (): JSX.Element =>
   <Stack height="100vh" paddingX={PAGE_PADDING_X} justifyContent="center" position="relative" overflow="hidden">
