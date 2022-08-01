@@ -23,7 +23,7 @@ export const AppTheme = {
     grey: {
       white: '#F5F9FF',
       light: '#CDD8ED',
-      main: '#8B96AF',
+      main: '#A5BADF',
       dark: '#2E354A',
       black: '#010D2B',
     },
