@@ -50,12 +50,12 @@ const QuickBoxElement = styled(Box)(() => ({
 interface QuickBoxProps {
   link: string;
   message: string;
+  onClick: () => void;
 }
 
-export const QuickBox = ({ link, message }: QuickBoxProps): JSX.Element => {
-  console.log({ link, message });
+export const QuickBox = ({ link, message, onClick }: QuickBoxProps): JSX.Element => {
   return (
-    <QuickBoxElement width="22%" paddingTop="22%;" position="relative">
+    <QuickBoxElement width="22%" paddingTop="22%;" position="relative" onClick={onClick}>
       <Box position="absolute" bottom={6} left={6}>
         <img width="30%" src={link}></img>
         <Typography fontSize={12} lineHeight={1.1} fontWeight={600} className="base">{message}</Typography>
