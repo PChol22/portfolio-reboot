@@ -3,12 +3,19 @@ import { AppTheme, PAGE_PADDING_X } from "@/AppTheme";
 import { Button } from "@/components/Button";
 import { StyledLink } from "@/components/StyledLink";
 import { Logo } from "@/components/Logo";
+import { MutableRefObject } from "react";
 
 const HeaderContainer = styled(Box)(() => ({
   background: AppTheme.palette.grey.white,
-}))
+}));
 
-export const Header = (): JSX.Element => {
+const onLinkClick = (ref: MutableRefObject<HTMLElement | null>): void => {
+  if (ref.current !== null) {
+    ref.current.scrollIntoView();
+  }
+};
+
+export const Header = ({ refs }: { refs: MutableRefObject<HTMLElement | null>[] }): JSX.Element => {
   const links = ['Experience', 'Skills', 'Projects', 'Formation'];
   return <HeaderContainer
     position="fixed"
@@ -30,7 +37,16 @@ export const Header = (): JSX.Element => {
         alignItems="center"
         gap={3}
       >
-        {links.map(link => <StyledLink key={link} colorVariant='principal' fontWeight={400}>{link}</StyledLink>)}
+        {links.map((link, i) => (
+          <StyledLink
+            key={link}
+            colorVariant='principal'
+            fontWeight={400}
+            onClick={() => onLinkClick(refs[i])}
+          >
+            {link}
+          </StyledLink>
+        ))}
         <Button styleVariant="outlined" colorVariant="principal">Reach me!</Button>
       </Stack>
     </Stack >

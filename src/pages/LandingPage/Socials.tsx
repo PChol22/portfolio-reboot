@@ -37,7 +37,7 @@ const socials = [
   },
 ];
 
-export const Socials = (): JSX.Element => <Stack position="absolute" right="1vh" bottom="11vh" gap={1}>
+export const Socials = (): JSX.Element => <Stack position="absolute" right="1.5vh" bottom="11vh" gap={1}>
   {socials.map(({ link, logo }) => (
     <SocialLogo height="5vh" key={link}>
       <a href={link} target="_blank" rel="noreferrer">

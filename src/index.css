@@ -14,4 +14,6 @@ code {
 
 * {
   box-sizing: border-box;
+  scroll-behavior: smooth;
+  scroll-margin-top: 1.5em;
 }
